@@ -1,23 +1,24 @@
-# 📌 Sorting Algorithms
+#  Sorting Algorithms
 
-Sorting algorithms are classified into two main types:
+Thre are two types of sorting algorithms 
 
-1. **Comparison-based Sorting** (e.g., Bubble Sort, Merge Sort)
-2. **Non-comparison-based Sorting** (e.g., Counting Sort)
+1. **Comparison-based Sorting** : Bubble Sort, Merge Sort
+2. **Non-comparison-based Sorting** : Counting Sort
 
 ---
 
-## 🔄 Comparison-Based Sorting
+##  Comparison-Based Sorting
 
-### 1️⃣ Bubble Sort
-- **Time Complexity:** \( O(n^2) \) (Worst and Average), \( O(n) \) (Best case if already sorted)
+### 1️ Bubble Sort
+- **Time Complexity:** \( O(n^2) \) (Worst and Average), 
+                        \( O(n) \) (Best case if already sorted)
 - **Space Complexity:** \( O(1) \) (in-place sorting)
 
-#### ✨ How It Works:
+####  How It Works:
 1. Compare adjacent elements and swap them if they are in the wrong order.
 2. Repeat the process for all elements until no swaps are needed.
 
-#### 🔹 Example Walkthrough:
+####  Example Walkthrough:
 
 Starting with the array **[8, 5, 10, 6, 4]**:
 
@@ -29,15 +30,15 @@ Starting with the array **[8, 5, 10, 6, 4]**:
 
 ---
 
-### 2️⃣ Merge Sort
+### 2️ Merge Sort
 - **Time Complexity:** \( O(n \log n) \) (Best, Worst, and Average cases)
 - **Space Complexity:** \( O(n) \) (uses extra space for merging)
 
-#### ✨ How It Works:
+####  How It Works:
 1. Recursively **divide** the array into halves until each subarray has one element.
 2. **Merge** the subarrays back together in sorted order.
 
-#### 🔹 Example Walkthrough:
+####  Example Walkthrough:
 
 Starting with **[8, 5, 10, 6, 4]**:
 
@@ -48,19 +49,19 @@ Starting with **[8, 5, 10, 6, 4]**:
 
 ---
 
-## 🚀 Non-Comparison Sorting
+##  Non-Comparison Sorting
 
-### 3️⃣ Counting Sort
+###  Counting Sort
 - **Time Complexity:** \( O(n + k) \), where \( k \) is the range of input values.
 - **Space Complexity:** \( O(n + k) \) (uses extra space for frequency count).
 
-#### ✨ How It Works:
+####  How It Works:
 1. Find the **maximum value** in the array.
 2. Create a **count array** to store occurrences.
 3. Compute **cumulative sums** to determine positions.
 4. Build the **sorted array** using the count array.
 
-#### 🔹 Example Table:
+####  Example Table:
 
 | Index | Before | Cumulative Count |
 |--------|---------|----------------|
