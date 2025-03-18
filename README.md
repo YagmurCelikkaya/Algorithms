@@ -119,7 +119,9 @@ Starting with **[9, 4, 3, 8, 10, 2, 5]**
 ####  Example Table:
 
 Starting with **[4, 2, 2, 8, 3, 3, 1]**
+
 index      = **[0, 1, 2, 3, 4, 5, 6, 7, 8]**
+
 countArray = **[0, 1, 2, 2, 1, 0, 0, 0, 1]**
 
 Cumulative Count calculate like that :
