@@ -4,7 +4,7 @@ There are two types of sorting algorithms
 
 1. **Comparison-based Sorting** : Bubble Sort, Merge Sort, Heap Sort
 2. **Non-comparison-based Sorting** : Counting Sort, Radix Sort, Bucket Sort
-
+ 
 ---
 
 ##  Comparison-Based Sorting
