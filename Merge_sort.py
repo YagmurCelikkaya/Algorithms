@@ -3,7 +3,7 @@ def merge_sorted_lists(given_list): # Create a function
         return given_list
     
     middle = len(given_list)// 2  # Split the list into two parts.
-
+ 
     # Recursively sort both halves. 
     left = merge_sorted_lists(given_list[:middle])
     right = merge_sorted_lists(given_list[middle:])
