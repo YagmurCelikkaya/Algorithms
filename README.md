@@ -14,7 +14,7 @@ There are two types of sorting algorithms
                         \( O(n) \) (Best case if already sorted)
 - **Space Complexity:** \( O(1) \) (in-place sorting)
 
-*Bubble Sort* is the simplest sorting algorithm. This algorithm is not suitable for large data sets because its average and worst-case time complcity are quite high
+*Bubble Sort* , is the simplest sorting algorithm. This algorithm is not suitable for large data sets because its average and worst-case time complcity are quite high
 
 ####  How It Works:
 1. Compare adjacent elements and swap them if they are in the wrong order.
@@ -57,7 +57,7 @@ Starting with **[8, 5, 10, 6, 4]**:
 - **Time Complexity:** \( O(n log n) \) (Best, Worst, and Average cases)
 - **Space Complexity:** \( 0(log n) \) (in-place sorting)
 
-*Heap Sort* is a sorting technique based on *Binary Heap Data Structure*
+*Heap Sort* , is a sorting technique based on *Binary Heap Data Structure*
 
 #### How It Works:
 1. Convert the array into a **heapify tree**
@@ -108,7 +108,7 @@ Starting with **[9, 4, 3, 8, 10, 2, 5]**
 - **Time Complexity:** \( O(n + k) \), where \( k \) is the range of input values, and \(n\) is the number of elements in te input array. 
 - **Space Complexity:** \( O(n + k) \) (uses extra space for frequency count).
 
-*Counting Sort* is efficient when dealing with a small range of integers but it is not suitable for alrge-value ranges or floating-point numbers
+*Counting Sort* , is efficient when dealing with a small range of integers but it is not suitable for alrge-value ranges or floating-point numbers
 
 ####  How It Works:
 1. Find the **maximum value** in the array.
@@ -144,7 +144,7 @@ Cumulative Count calculate like that :
 - **Time Complexity:** \( O(nk)\) (best, and worst cases)
 - **Space Complexity:** \( O(n + k)\) 
 
-*Radix Sort* sorts numbers digit by digit, from the least significant digit to the most significant digit.
+*Radix Sort* , sorts numbers digit by digit, from the least significant digit to the most significant digit.
 
 #### How It Works:
 1. Find the maximum number and its digits then, it repeats as many times as the number of digits.
