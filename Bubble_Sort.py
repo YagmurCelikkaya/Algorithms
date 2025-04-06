@@ -14,7 +14,7 @@ if choice == "yes":
     for i in range(length - 1):
         for j in range(length - 1 - i):
             # Be careful while using two indexes.
-            # Change the element to the shortest ones.
+            # Swap the elements.
             if BubbleList[j] > BubbleList[j + 1]: 
                 BubbleList[j], BubbleList[j + 1] = BubbleList[j + 1], BubbleList[j]
     print(f"Sorted list is : {BubbleList}")
