@@ -1,3 +1,4 @@
+# Merge Sort algorithm with given python list
 def merge_sorted_lists(given_list): # Create a function
     if len(given_list) <= 1:  # In best case the list has 0 or 1 element.
         return given_list
